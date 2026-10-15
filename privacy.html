@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - MiAnalizadorTikTok</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #0d0f12;
+            color: #e6edf3;
+            line-height: 1.6;
+            padding: 2.5rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 14px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 { font-size: 2rem; color: #25f4ee; margin-bottom: 0.5rem; }
+        .last-updated { color: #8b949e; font-size: 0.9rem; margin-bottom: 2rem; }
+        h2 { font-size: 1.3rem; color: #f0f6fc; margin: 1.8rem 0 0.6rem; border-bottom: 1px solid #21262d; padding-bottom: 0.4rem; }
+        p { margin-bottom: 1rem; color: #c9d1d9; font-size: 1rem; }
+        ul { margin: 0.5rem 0 1.2rem 1.5rem; color: #c9d1d9; }
+        li { margin-bottom: 0.4rem; }
+        a { color: #25f4ee; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .badge {
+            display: inline-block;
+            background: rgba(37, 244, 238, 0.15);
+            color: #25f4ee;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .contact-box {
+            margin-top: 2rem;
+            padding: 1.2rem;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+        }
+        .footer-nav { margin-top: 2rem; text-align: center; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <div class="last-updated">Última actualización: Octubre 2026</div>
+
+        <p>Esta Política de Privacidad describe cómo <strong>MiAnalizadorTikTok</strong> trata la información al interactuar con su cuenta de TikTok a través de las APIs oficiales.</p>
+
+        <h2>1. Permisos Solicitados y Finalidad</h2>
+        <p>Nuestra aplicación solicita acceso a permisos específicos bajo el protocolo OAuth 2.0 de TikTok:</p>
+        <ul>
+            <li><span class="badge">video.publish</span> y <span class="badge">video.upload</span>: Se utilizan <strong>exclusivamente para subir y publicar los videos programados por el usuario</strong> en su propia cuenta de TikTok según las horas y captions configurados.</li>
+            <li><span class="badge">user.info.basic</span> y <span class="badge">user.info.stats</span>: Se emplean únicamente para autenticar la identidad del creador y mostrar sus estadísticas básicas (seguidores, likes, nombre de usuario) en su panel personal.</li>
+            <li><span class="badge">video.list</span>: Se utiliza para consultar los videos publicados y evitar publicaciones duplicadas.</li>
+        </ul>
+
+        <h2>2. No Compartición ni Venta de Datos</h2>
+        <p><strong>Bajo ninguna circunstancia vendemos, alquilamos ni compartimos sus datos personales ni la información de su cuenta con terceros ni servicios de publicidad.</strong> Toda comunicación se establece de forma cifrada (HTTPS) y directa entre el servidor del usuario y los endpoints oficiales de TikTok (<code>open.tiktokapis.com</code>).</p>
+
+        <h2>3. Almacenamiento y Seguridad de Credenciales</h2>
+        <p>Los tokens de acceso se almacenan de manera local y confidencial en el entorno del usuario con el único fin de permitir la ejecución de las tareas programadas sin requerir inicio de sesión manual repetitivo. No mantenemos bases de datos externas con sus credenciales.</p>
+
+        <h2>4. Derechos del Usuario y Revocación</h2>
+        <p>Usted puede revocar el acceso de <strong>MiAnalizadorTikTok</strong> a su cuenta de TikTok en cualquier momento directamente desde los ajustes de seguridad y privacidad de la app oficial de TikTok.</p>
+
+        <h2>5. Contacto</h2>
+        <div class="contact-box">
+            <p>Si tiene alguna pregunta respecto a nuestra Política de Privacidad o el tratamiento de sus datos, por favor contáctenos en:</p>
+            <p><strong>Correo electrónico:</strong> <a href="mailto:daynee1301@gmail.com">daynee1301@gmail.com</a></p>
+        </div>
+
+        <div class="footer-nav">
+            <a href="index.html">Inicio</a> &nbsp;|&nbsp; <a href="terms.html">Términos de Servicio</a>
+        </div>
+    </div>
+</body>
+</html>
